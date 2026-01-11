@@ -1,0 +1,13 @@
+STEP-1: LAUCN AN EC2 INSTANCE WITH SEPARATE SECURITY GROUP
+STEP-2: GO TO JENKINS.IO AND COPY PASTE THOSE 2 LINKS 
+STEP-3:  INSTALL JAVA
+STEP-4: INSTALL JENKINS 
+STEP-5: START THE JENKINS  
+links-1: sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat
+stable/jenkins.repo
+link-2 : sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+To install java11 :  amazon-linux-extras install java-openjdk11 -y
+To install jenkins : yum install jenkins -y
+To start jenkins : systemctl start jenkins
+To check jenkins status : systemctl status jenkins
+To stop jenkins : systemctl stop jenkins
